@@ -16,7 +16,6 @@ jobs:
       with:
         node-version: '18.13.0'
         cache: 'npm'
-    - run: | 
-      npm install
-      npm --version
+    - run: npm install
+    - run:  npm --version
   
